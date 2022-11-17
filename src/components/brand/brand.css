@@ -1,0 +1,39 @@
+.brand__container span{
+  white-space: pre-line !important;
+  max-width: 100% !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  padding-left: 90px !important;
+  color:var(--color-text);
+  font-family: "Mukta";
+}
+.brand__container img{
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 100% !important;
+  margin-bottom: 0 !important;
+  object-fit: cover !important;
+}
+/* responsive*/
+@media (max-width: 768px) {
+  .brand__container{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    text-align: left !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    padding-left: 20px !important;
+  }
+  .brand__container span{
+    white-space: pre-line !important;
+    max-width: 100% !important;
+    font-size: 21px !important;
+    font-weight: 500 !important;
+    padding-left: 5px !important;
+    color:var(--color-text);
+  }
+
+}

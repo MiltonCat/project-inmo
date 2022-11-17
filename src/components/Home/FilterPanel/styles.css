@@ -1,0 +1,40 @@
+.label {
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #000;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.input-group {
+  margin-bottom: 2rem;
+}
+.label-range {
+  margin-bottom: 2.5rem;
+  margin-left: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .label{
+  font-size: 1.3rem;
+  margin-left: 20%;
+  }
+  .filter-panel {
+    padding: 2rem 1rem;
+  }
+  .input-group{
+    margin-bottom: 1rem;
+    color: #000;
+  }
+
+  .label-range{
+    margin-bottom: 0.5rem;
+    margin-left: 130px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  }
+
+  

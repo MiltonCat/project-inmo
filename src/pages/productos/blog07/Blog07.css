@@ -1,0 +1,403 @@
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+
+}
+
+.header__icon img{
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  font-size: 10px;
+}
+
+.container-desc{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+ .titulo h1{
+  padding-top:10px;
+  padding-left:60px;
+  display:block;
+  color:white;
+  font-size:2em;
+  box-sizing:border-box;
+ }
+ #galeria{
+  width:100%;
+  height:100%;
+  flex-direction:column;
+  display:grid;
+  grid-template-columns: 500px 1fr 1fr 1fr;
+  gap:5px;
+  justify-content:center;
+  padding:50px;
+ }
+.grid-text img{
+  position:relative;
+  width:100%;
+  height:320px;
+  margin-bottom:40px;
+  border-radius:5px;
+  cursor:pointer;
+  object-fit:cover;
+}
+.grid-item{
+  width:500px;
+  height:300px;
+  margin-bottom:40px;
+  border-radius:5px;
+  cursor:pointer;
+  object-fit:cover;
+}
+.listings__image img{
+  position:relative;
+  width:100%;
+  height:320px;
+  margin-bottom:40px;
+  border-radius:5px;
+  cursor:pointer;
+  object-fit:cover;
+}
+ .listings__image-superhost:after {
+  position:absolute;
+  left:170px;
+	content:':: Clickea cualquier foto ';
+  color:#000;
+  background-color: #ffff;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+  border-radius:4px;
+  padding: 8px 12px;
+  margin-top: 10px;
+  letter-spacing:0.48px;
+	font-size:14px;
+	font-family: 'Circular Medium';
+  text-transform:uppercase;
+	opacity:0.6;
+}
+.descripcion_blog1{
+  max-width:100%;
+  flex-direction:column;
+  display:grid;
+  justify-content:center;
+  padding-left: 50px;
+}
+.barra{
+  position: fixed;
+  top: 10pxnpm start;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.barra > .barra__left{
+  width: 20%;
+  padding:10px;
+  color: rgb(34, 34, 34) !important;
+}
+.barra > .barra__right h1{
+  padding: 10px;
+  color: rgb(34, 34, 34) !important;
+  font-size: 20px;
+  font-weight: 500;
+  font-size: var(--pricing-guest-primary-line-qualifier-font-size, 23px) !important;
+  line-height: var(--pricing-guest-primary-line-qualifier-line-height, 18px) !important;
+}
+.barra > .barra__right h2{
+  width:170px;
+  height: 40px;
+  background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 45px;
+  font-weight: 500;
+}
+.barra__right span{
+ color:#000;
+ font-weight: 300;
+ color: rgb(34, 34, 34) !important;
+ font-size: var(--pricing-guest-primary-line-qualifier-font-size, 23px) !important;
+ line-height: var(--pricing-guest-primary-line-qualifier-line-height, 18px) !important;
+}
+
+.barra__left .barra__list{
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(34, 34, 34) !important;
+  font-weight: 300 !important;
+  padding: 30px 0px !important;
+  display: flex !important;
+  text-decoration: none !important;
+  position: relative !important;
+}
+.barra__list > li{
+  list-style-type: none;
+  float: left;
+}
+.barra__list > li a{
+  text-decoration: none;
+  font-weight: 600;
+}
+.barra__precio h1{
+  padding-left: 100px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+.barra__precio a{
+  text-decoration: none;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+  color: rgb(255, 255, 255) !important;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+}
+hr{
+  --gp-section-max-width: 1120px;
+  color:#1f1f14
+}
+.descripcion_blog1 h1{
+  font-size: 2em;
+  font-weight: 600;
+  color: #FF385C;
+  padding-bottom: 50px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+}
+.descripcion_blog1 span{
+  font-size: 1em;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 50px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+}
+.listings__image-superhost:after {
+  position:relative;
+  left:0;
+  top:-80px;
+	content:':: Clickea cualquier foto ';
+  color:#000;
+  background-color: #ffff;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+  border-radius:4px;
+  padding: 8px 12px;
+  margin-top: 10px;
+  letter-spacing:0.48px;
+	font-size:14px;
+	font-family: 'Circular Medium';
+  text-transform:uppercase;
+	opacity:0.6;
+}
+.form-container{
+  background-color: inherit;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.form-container__left{
+  width: 500px;
+  height: 100%;
+  padding-top: 0px;
+  margin: 0 auto;
+}
+.form-container__right{
+  width: 300px;
+  height: 100%;
+  padding-bottom: 150px;
+  margin: 0 auto;
+}
+.form-container__left >h2{
+  text-align: center;
+  font-size: 2.6em;
+  color:#ffff;
+  padding-bottom: 20px;
+}
+.form-container__left > p{
+  text-align: center;
+  color:#999;
+  display: block;
+  box-sizing: border-box;
+  padding-bottom: 100px;
+}
+.form-container__right >h2{
+  text-align: center;
+  font-size: 2.5rem;
+}
+.form-container__right > p{
+  text-align: center;
+  color:#999;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+.form-container .form-container__right{
+  width: 500px;
+  height: max-content;
+  padding-top:140px; 
+}
+.form-container .form-container__left span{
+  color:#999;
+  padding-left: 70px;
+  padding-top: 100px;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+   .barra > .barra__left{
+     width: 20%;
+     padding:10px;
+     color: rgb(34, 34, 34) !important;
+   }
+   .barra > .barra__right h1{
+     padding: 10px;
+     color: rgb(34, 34, 34) !important;
+     font-size: 20px;
+     font-weight: 500;
+     font-size: var(--pricing-guest-primary-line-qualifier-font-size, 23px) !important;
+     line-height: var(--pricing-guest-primary-line-qualifier-line-height, 18px) !important;
+   }
+   .barra > .barra__right h2{
+     width:170px;
+     height: 40px;
+     background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+     border-radius: 10px;
+     padding: 10px;
+     padding-left: 45px;
+     font-weight: 500;
+   }
+   .barra__right span{
+    font-weight: 300;
+    color: rgb(34, 34, 34) !important;
+    font-size: var(--pricing-guest-primary-line-qualifier-font-size, 23px) !important;
+    line-height: var(--pricing-guest-primary-line-qualifier-line-height, 18px) !important;
+   }
+   
+   .barra__left .barra__list{
+     justify-content: space-between;
+     align-items: center;
+     color: rgb(34, 34, 34) !important;
+     font-weight: 300 !important;
+     padding: 30px 0px !important;
+     display: flex !important;
+     text-decoration: none !important;
+     position: relative !important;
+   }
+   .barra__list > li{
+     list-style-type: none;
+     float: left;
+   }
+   .barra__list > li a{
+     text-decoration: none;
+     font-weight: 600;
+   }
+   .barra__precio h1{
+     padding-left: 100px;
+     font-size: 1.5em;
+     font-weight: bold;
+     color: black;
+   }
+   .barra__precio a{
+     text-decoration: none;
+     background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+     color: rgb(255, 255, 255) !important;
+     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+   }
+  .container-desc{
+    width: 100%;
+    padding: 0;
+  }
+  .container-desc .titulo h1{
+   display: none;
+  }
+  #galeria{
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #galeria a img{
+    width:60%;
+    margin: 0 auto;
+  }
+  .listings__image a img{
+    width:90%;
+  }
+  .listings__image-superhost:after{
+    display: none;
+  }
+  .descripcion_blog1 h1{
+    width: 100%;
+    font-size: 2em;
+    margin-left: 200px;
+  }
+  .descripcion_blog1 p{
+    width: 300px;
+    display: block;
+    margin-left: 200px;
+  }
+  .form-container .form-container__left{
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 900px){
+  .header{
+    width: 100%;
+  }
+  .container-desc{
+    width: 100%;
+  }
+  .container-desc .titulo h1{
+   display: none;
+  }
+  #galeria{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #galeria a img{
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  .listings__image a img{
+    width:90%;
+  }
+  .listings__image-superhost:after{
+    display: none;
+  }
+  .form-container .form-container__left{
+    width: 500px;
+    padding-top: 60px;
+    font-size: 1rem;
+  }
+  .form-container{
+    height: 60%;
+    margin: 0 auto;
+  }
+  .form-container .form-container__left > p{
+    font-size: 1.1rem;
+    display: block;
+    box-sizing: border-box;
+  }
+  .form-container .form-container__right{
+    display: none;
+  }
+}
